@@ -1,0 +1,165 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.posicao__img {
+    animation: fadeIn 1s ease-in;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #111433;
+    color: azure;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 400;
+}
+
+.apresentacao {
+    padding: 0% 0% 8% 0%;
+}
+
+.posicao__img {
+    width: 15%;
+    margin: 3%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.posicao__strong {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.posicao__conteudo {
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.posicao__div {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.posicao__div__link {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #707399;
+    color: azure;
+    text-align: center;
+    border-radius: 16px;
+    padding: 21.5px;
+    width: 378px;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.posicao__div__link:hover {
+    background-color: #363A66;
+}
+
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.cabecalho__nav {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__nav__conteudo {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-weight: 400;
+    color: azure;
+}
+
+.conteudo__principal {
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+    gap: 8px;
+    font-size: 1.5rem;
+}
+
+.conteudo__imagem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+    animation: fadeIn 2s ease-in;
+}
+
+
+.conteudo__p {
+    padding: 5% 0% 2% 0%;
+    text-align: center;
+}
+.conteudo__p2 {
+    padding: 2% 0% 2% 0%;
+}
+
+
+.strong__aboutme {
+    color: #707399;
+}
+
+.strong__FF {
+    color: #B6BBC4;
+}
+
+.rodape {
+    background-color: #363A66;
+    padding: 2%;
+    text-align: center;
+    gap: 16px;
+}
+
+@media (max-width: 440px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+.posicao__img {
+    width: auto;
+}
+
+    .apresentacao {
+        flex-direction: column;
+        padding: 5%;
+        width: auto;
+    }
+
+    .posicao__div__link {
+        width: auto;
+    }
+}
