@@ -45,6 +45,12 @@ body {
     align-items: center; 
 }
 
+.kirby__gif {
+    width: 15rem;
+    margin-left: 43%;
+    margin-top: 1rem;
+}
+
 .posicao__conteudo {
     margin: 3%;
     display: flex;
@@ -154,6 +160,12 @@ body {
 
     .posicao__strong {
         font-size: 1rem;
+    }
+
+    .kirby__gif {
+        width: 35%;
+        margin-top: 0.5rem;
+        margin-left: 30%;
     }
 
     .posicao__conteudo {
